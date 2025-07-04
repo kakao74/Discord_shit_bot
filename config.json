@@ -1,0 +1,14 @@
+{
+  "target_emoji": "💩",
+  "rate_limit_window": 60,
+  "rate_limit_max": 5,
+  "max_content_length": 1000,
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "discord": {
+    "command_cooldown": 30,
+    "presence_update_interval": 300
+  }
+}
