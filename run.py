@@ -33,9 +33,7 @@ def check_dependencies():
     """Check if required dependencies are installed."""
     required_packages = [
         'discord',
-        'motor',
-        'certifi',
-        'aiofiles'
+        'aiohttp'
     ]
     
     missing_packages = []
@@ -61,7 +59,6 @@ def check_environment():
     
     required_vars = [
         'DISCORD_BOT_TOKEN',
-        'TARGET_GUILD_ID',
     ]
     
     missing_vars = []
